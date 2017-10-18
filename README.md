@@ -1,4 +1,5 @@
-Ruby Code Challenge
+<h1>Ruby Code Challenge</h1>
+
  Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
 
     Only one letter can be changed at a time.
@@ -38,3 +39,6 @@ irb(main):001:0> load './rubycodechallenge.rb'
 
 irb(main):003:0>
 
+So this was Breadth First approach, where all words at same levels are collected first, 
+that is all words with one letter difference are collected in Queue, 
+and then each paths are checked for next level words until we found the endWord.
