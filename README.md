@@ -10,7 +10,7 @@ irb(main):001:0> load './rubycodechallenge.rb'
 
 => true
 
-<gth("hit", "cog", ["hot","dot","dog","lot","log","cog"])
+> ladder_length("hit", "cog", ["hot","dot","dog","lot","log","cog"])
 
 => 5
 
